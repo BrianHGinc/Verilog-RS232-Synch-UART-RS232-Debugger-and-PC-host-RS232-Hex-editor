@@ -1,6 +1,14 @@
 # Verilog-RS232-Synch-UART-RS232-Debugger-and-PC-host-RS232-Hex-editor
 Verilog RS232 Synch-UART &amp; RS232 Debugger and PC host RS232 Hex-editor.
 
+Debugger Hex Editor Changes v1.3, Jan 14, 2022.
+
+ - Now has an 'ENDIAN' setting which new shows you the correct 16bit values for 16bit ints.
+ - When editing cells, this also allows the use of the +/- keys to increment/decrement 16bit values with the new ENDIAN settings being taken into account.
+ - Also has a new Quartus save 32bit .mif files.
+ - Also, changing the ENDIAN before saving a 16bit or 32bit Quartus .mif file will also swap they byte order making it easy to render wide .mif files with reverse ENIANess.
+
+
 This is a Verilog core which contains a PC compatible high speed Synchronous RS-232 UART and RS232 debugger server and real-time PC client software hex-editor with 4 utility 8 bit input ports and 4 utility 8 bit output ports.
 
 The Verilog source is well documented in code.  See the original project page from Nov 25, 2019 here:
