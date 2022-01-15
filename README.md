@@ -3,7 +3,7 @@ Verilog RS232 Synch-UART &amp; RS232 Debugger and PC host RS232 Hex-editor.
 
 Debugger Hex Editor Changes v1.3, Jan 14, 2022.
 
- - Now has an 'ENDIAN' setting which new shows you the correct 16bit values for 16bit ints.
+ - Now has an 'ENDIAN' setting which now shows you the correct 16bit values for 16bit ints.
  - When editing cells, this also allows the use of the +/- keys to increment/decrement 16bit values with the new ENDIAN settings being taken into account.
  - Also has a new Quartus save 32bit .mif files.
  - Also, changing the ENDIAN before saving a 16bit or 32bit Quartus .mif file will also swap they byte order making it easy to render wide .mif files with reverse ENIANess.
